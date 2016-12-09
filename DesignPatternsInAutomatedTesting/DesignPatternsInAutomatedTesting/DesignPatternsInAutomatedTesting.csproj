@@ -35,6 +35,7 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup />
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Drawing" />
@@ -60,6 +61,15 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
+    <Compile Include="AdvancedPageObjectPattern\Bing\Pages\BasePage.cs" />
+    <Compile Include="AdvancedPageObjectPattern\Bing\Pages\BasePageElementMap.cs" />
+    <Compile Include="AdvancedPageObjectPattern\Bing\Pages\BasePageValidator.cs" />
+    <Compile Include="AdvancedPageObjectPattern\Bing\Pages\MainPage\BingMainPage.cs" />
+    <Compile Include="AdvancedPageObjectPattern\Bing\Pages\MainPage\BingMainPageElementMap.cs" />
+    <Compile Include="AdvancedPageObjectPattern\Bing\Pages\MainPage\BingMainPageValidator.cs" />
+    <Compile Include="AdvancedPageObjectPattern\Bing\Tests\BingTests.cs" />
+    <Compile Include="AdvancedPageObjectPattern\BrowserTypes.cs" />
+    <Compile Include="AdvancedPageObjectPattern\Driver.cs" />
     <Compile Include="PageObjectPattern\Bing\Pages\BingMainPage.cs" />
     <Compile Include="PageObjectPattern\Bing\Pages\POP\BingMainPage2.cs" />
     <Compile Include="PageObjectPattern\Bing\Pages\POP\BingMainPageElementMap.cs" />
